@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+}
+
+.outer_container {
+  height: 50vh;
+  width: 1200px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.flex_container {
+  display: flex;
+  gap: 15px;
+}
+
+/* font styles */
+
+.gloria-hallelujah-regular {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.cast_header {
+  font-size: 45px;
+  font-family: "Gloria Hallelujah", cursive;
+  text-align: center;
+}
+
+.cast_link {
+  font-size: 1.5em;
+}
