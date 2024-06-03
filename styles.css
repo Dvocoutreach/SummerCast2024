@@ -45,6 +45,7 @@ img {
 @media screen and (max-width:500px) {
    .outer_container {
     height: 25vh;
+    width: 500px;
    }
 
   .flex_container {
