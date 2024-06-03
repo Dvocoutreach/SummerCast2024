@@ -44,8 +44,7 @@ img {
 /*****************Media queries*************/
 @media screen and (max-width:500px) {
    .outer_container {
-    height: 25vh;
-    width: 500px;
+    max-width: 300px;
    }
 
   .flex_container {
@@ -53,4 +52,9 @@ img {
     flex-direction: column;
   }
   
+  .figaro,
+  .secret,
+  .barber {
+    max-width: 250px;
+  }
 }
