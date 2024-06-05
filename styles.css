@@ -42,6 +42,33 @@ img {
 
 
 
+/***************Navigation Styles***************/
+
+
+.navigation,
+.nav_flex  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    padding: 20px;
+    
+}
+
+.logo_container {
+   width: 125px;
+}
+
+
+/* main styles */
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
@@ -93,6 +120,7 @@ a:link {
 a:hover {
   text-decoration: underline;
 }
+
 
 
 
