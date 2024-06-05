@@ -52,7 +52,9 @@ img {
     justify-content: space-between;
 }
 
-
+.navigation {
+  margin-top: 15px;
+}
 ul {
     list-style-type: none;
     
