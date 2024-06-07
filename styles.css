@@ -122,11 +122,32 @@ footer {
 
 a:link {
   text-decoration: none;
+  color: #41142A;
 }
 
 a:hover {
   text-decoration: underline;
 }
+
+
+/***************** link Styles ***************/
+
+/* visited link */
+a:visited {
+  color: #715EFD;
+}
+
+/* mouse over link */
+a:hover {
+  color:#d43910;
+}
+
+/* selected link */
+a:active {
+  color: #ffA227;
+}
+
+
 
 
 
