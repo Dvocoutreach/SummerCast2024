@@ -125,22 +125,17 @@ a:link {
   color: #41142A;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-
-/***************** link Styles ***************/
-
-/* visited link */
 a:visited {
   color: #715EFD;
 }
 
-/* mouse over link */
 a:hover {
+  text-decoration: underline;
   color:#d43910;
 }
+
+
+/***************** link Styles ***************/
 
 /* selected link */
 a:active {
